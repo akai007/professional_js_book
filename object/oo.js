@@ -53,7 +53,7 @@ Object.defineProperty(person2, 'name', {
     }
 });
 
-delete person2.name; // why?
+delete person2.name; // why? when after delete, reading person2.name has value 
 
 person2.name = 'meng2';
 console.log(person2.name);
